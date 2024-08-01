@@ -13,7 +13,7 @@ const todoSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    updatedate: {
+    updatedat: {
         type: String,
         required: true,
     },

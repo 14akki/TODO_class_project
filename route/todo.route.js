@@ -1,7 +1,15 @@
 const express= require('express');
 const router= express.Router();
 
-//router.get('/', getTodo);
-router.post('/', createTodo);
+const {createTodoController, getAlltodoController,getTodoByIdController, getTodoByNameController, 
+    getTodoByStatusController, updateTodoStatusByController}=  require('../controller/todo.controller')
 
-module.exports= router;;
+//router.get('/', getTodo);
+router.post('/create', createTodoController);
+router.get('/', getAlltodoController);
+router.get('/:id', getTodoByIdController);
+router.get('/getTodobyname/:name', getTodoByNameController);
+router.get('/gettodobystatus/:status',  getTodoByStatusController);
+router.put('/:id',updateTodoStatusByController);
+
+module.exports= router;
