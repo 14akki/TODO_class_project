@@ -1,0 +1,29 @@
+{
+  "name": "todo-class-project",
+  "version": "1.0.0",
+  "description": "Class first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/14akki/TODO_class_project.git"
+  },
+  "author": "Ankit Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/14akki/TODO_class_project/issues"
+  },
+  "homepage": "https://github.com/14akki/TODO_class_project#readme",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.3.0",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4"
+  }
+}
